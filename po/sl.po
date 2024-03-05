@@ -1,0 +1,332 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Hunter Wittenborn <hunter@hunterwittenborn.com>
+# This file is distributed under the same license as the Celeste package.
+#
+# Matej Urbančič <mateju@src.gnome.org>, 2024–.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Celeste 0.5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-01 18:51+0000\n"
+"PO-Revision-Date: 2024-03-05 12:28+0100\n"
+"Last-Translator: Matej Urbančič <mateju@src.gnome.org>\n"
+"Language-Team: Slovenščina <gnome-si@googlegroups.com>\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: celeste/src/gtk_util.rs:20 celeste/src/gtk_util.rs:43
+#: celeste/src/launch.rs:678 celeste/src/launch.rs:840
+msgid "Ok"
+msgstr "V redu"
+
+#: celeste/src/launch.rs:102
+msgid "Both '{}' and '{}' are more recent than at last sync."
+msgstr "Pri obeh, »{}« in »{}«, so zaznane spremembe, narejene po zadnjem usklajevanju."
+
+#: celeste/src/launch.rs:214
+msgid "Unable to create Celeste's config directory [{}]."
+msgstr "Ni se mogoče ustvariti nastavitvene mape programa [{}]."
+
+#: celeste/src/launch.rs:226
+msgid "Unable to create Celeste's database file [{}]."
+msgstr "Ni se mogoče ustvariti podatkovne zbirke programa [{}]."
+
+#: celeste/src/launch.rs:236
+msgid "Unable to connect to database [{}]."
+msgstr "Ni se mogoče povezati s podatkovno zbirko [{}]."
+
+#: celeste/src/launch.rs:244
+msgid "Unable to run database migrations [{}]"
+msgstr "Ni mogoče zagnati premestitve podatkovne zbirke [{}]"
+
+#: celeste/src/launch.rs:351
+msgid "Awaiting sync check..."
+msgstr "Poteka preverjanje datotek za usklajevanje ..."
+
+#: celeste/src/launch.rs:387
+msgid "Sync Errors"
+msgstr "Napake usklajevanja"
+
+#: celeste/src/launch.rs:402
+msgid "File/Folder Exclusions"
+msgstr "Izjeme datotek in map"
+
+#: celeste/src/launch.rs:521
+msgid "Stop syncing this directory"
+msgstr "Te mape ne usklajuj več"
+
+#: celeste/src/launch.rs:538
+msgid "Are you sure you want to stop syncing '{}' to '{}'?"
+msgstr "Ali ste prepričani, da želite zaustaviti usklajevanje »{}« v »{}« ?"
+
+#: celeste/src/launch.rs:547
+msgid "This directory is currently being processed to no longer be synced."
+msgstr "Ta mapa je ravnokar pripravljena za preklic usklajevanja."
+
+#: celeste/src/launch.rs:638
+msgid "Directories"
+msgstr "Mape"
+
+#. Get the local folder to sync with.
+#: celeste/src/launch.rs:661
+msgid "Local folder:"
+msgstr "Krajevna mapa:"
+
+#: celeste/src/launch.rs:677 celeste/src/launch.rs:839
+#: celeste/src/login/gdrive.rs:207
+msgid "Cancel"
+msgstr "Prekliči"
+
+#. Get the remote folder to sync with, and add it.
+#. The entry completion code is largely inspired by https://github.com/gtk-rs/gtk4-rs/blob/master/examples/entry_completion/main.rs. I honestly have no clue what half the code for that is doing, I just know the current code is working well enough, and it can be fixed later if it breaks.
+#: celeste/src/launch.rs:697
+msgid "Remote folder:"
+msgstr "Oddaljena mapa:"
+
+#: celeste/src/launch.rs:884
+msgid "The specified remote directory doesn't exist"
+msgstr "Navedena oddaljena mapa ne obstaja"
+
+#: celeste/src/launch.rs:892
+msgid "Failed to check if the specified remote directory exists"
+msgstr "Preverjanje, ali določena oddaljena mapa obstaja, je spodletelo"
+
+#: celeste/src/launch.rs:903
+msgid "The specified directory pair is already being synced"
+msgstr "Navedeni par imenikov se že usklajuje"
+
+#: celeste/src/launch.rs:906
+msgid "The specified local directory doesn't exist"
+msgstr "Določena krajevna mapa ne obstaja"
+
+#: celeste/src/launch.rs:909
+msgid "The specified local path isn't a directory"
+msgstr "Določena krajevna pot ni mapa"
+
+#: celeste/src/launch.rs:912
+msgid "The specified local directory needs to be an absolute path"
+msgstr "Določena krajevna mapa mora biti absolutna pot"
+
+#: celeste/src/launch.rs:940
+msgid "Are you sure you want to delete this remote?"
+msgstr "Ali ste prepričani, da želite izbristati to oddaljeno mesto?"
+
+#: celeste/src/launch.rs:941
+msgid "All the directories associated with this remote will also stop syncing."
+msgstr "Vse mape, povezane s tem oddaljenim mestom, ne bodo več usklajevane."
+
+#: celeste/src/launch.rs:1167 celeste-tray/src/main.rs:51
+msgid "Awaiting sync checks..."
+msgstr "Poteka čakanje na preverjanje za usklajevanje ..."
+
+#. Notify the tray app that we're syncing this remote now.
+#: celeste/src/launch.rs:1263
+msgid "Syncing '{}'..."
+msgstr "Poteka usklajevanje »{}« …"
+
+#: celeste/src/launch.rs:1298
+msgid "Checking for changes..."
+msgstr "Poteka preverjanje za spremembe …"
+
+#. Add an error for reporting in the UI.
+#: celeste/src/launch.rs:1305
+msgid "Please resolve the reported syncing issues."
+msgstr "Razrešiti je treba podane napake usklajevanja."
+
+#: celeste/src/launch.rs:1332
+msgid "{} errors found. "
+msgstr "Zaznanih je {} napak. "
+
+#: celeste/src/launch.rs:1346
+msgid "Would you like to dismiss this error?"
+msgstr "Ali želite prezreti napako?"
+
+#: celeste/src/launch.rs:1373
+msgid "Failed to sync '{}' to '{}' on remote."
+msgstr "Usklajevanje »{}« na oddaljeno mesto »{}« je spodletelo."
+
+#: celeste/src/launch.rs:1381
+msgid "Failed to sync '{}' on remote to '{}'."
+msgstr "Usklajevanje »{}« na oddaljenem mestu »{}« je spodletelo."
+
+#: celeste/src/launch.rs:1406
+msgid "Unable to fetch data for '{}' from the remote."
+msgstr "Ni mogoče pridobiti podatkov »{}« z oddaljenega strežnika."
+
+#: celeste/src/launch.rs:1415 celeste/src/launch.rs:1420
+#: celeste/src/launch.rs:1428
+msgid "File Update"
+msgstr "Posodobitev datoteke"
+
+#: celeste/src/launch.rs:1415
+msgid "Neither the local item or remote item exists anymore. This error will now be removed."
+msgstr "Ne krajevna in ne oddaljena datoteka ali mapa ne obstaja več. Ta napaka bo samodejno odstranjena."
+
+#: celeste/src/launch.rs:1420
+msgid "Only the local item exists now, so it will be synced to the remote."
+msgstr "Predmet obstaja le krajevno, zato bo poslan na oddaljeni strežnik."
+
+#: celeste/src/launch.rs:1428
+msgid "Only the remote item exists now, so it will be synced to the local machine."
+msgstr "Predmet obstaja le na oddaljenem strežniku, zato bo prejet na krajevno napravo."
+
+#: celeste/src/launch.rs:1438
+msgid "Both the local item '{}' and remote item '{}' have been updated since the last sync."
+msgstr "'{}' et sa version distante '{}' on tous les deux été mis à jour depuis la dernière synchronisation."
+
+#: celeste/src/launch.rs:1440
+msgid "Which item would you like to keep?"
+msgstr "Katero različico želite ohraniti?"
+
+#: celeste/src/launch.rs:1442
+msgid "Local"
+msgstr "Krajevno"
+
+#: celeste/src/launch.rs:1443
+msgid "Remote"
+msgstr "Oddaljeno"
+
+#: celeste/src/launch.rs:1492
+msgid "1 error found."
+msgstr "Zaznana je 1 napaka."
+
+#: celeste/src/launch.rs:1494
+msgid "{} errors found."
+msgstr "Zaznanih je {} napak."
+
+#: celeste/src/launch.rs:1626
+msgid "Checking '{}' for changes..."
+msgstr "Poteka preverjanje »{}« za spremembe ..."
+
+#: celeste/src/launch.rs:2042
+msgid "Checking '{}' on remote for changes..."
+msgstr "Poteka preverjanje sprememb na strežniku »{}« ..."
+
+#: celeste/src/launch.rs:2433
+msgid "Directory has finished sync checks."
+msgstr "Za mapo je preverjanje datotek za usklajevanje končano."
+
+#: celeste/src/launch.rs:2454
+msgid "Finished sync checks with {} errors."
+msgstr "Preverjanje usklajevanja je bilo končano z napakami {}."
+
+#: celeste/src/login/gdrive.rs:204
+msgid "Authenticating to {}..."
+msgstr "Poteka overjanje istovetnosti z {} …"
+
+#: celeste/src/login/gdrive.rs:205
+msgid "Follow the link that opened in your browser, and come back once you've finished."
+msgstr "Sledite povezavi, ki se je odprta v brskalniku in se vrnite na to mesto, ko zaključite."
+
+#: celeste/src/login/gdrive.rs:232
+msgid "There was an issue while running the webserver for authentication"
+msgstr "Prišlo je do napake med zaganjanjem spletnega strežnika za overitev"
+
+#: celeste/src/login/gdrive.rs:241
+msgid "There was an issue authenticating to {}"
+msgstr "Prišlo je do napake overjanja istovetnosti z mestom {}"
+
+#: celeste/src/login/login_util.rs:14
+msgid "Server Name"
+msgstr "Ime strežnika"
+
+#: celeste/src/login/login_util.rs:26
+msgid "Server name already exists."
+msgstr "Uporabljeno ime strežnika že obstaja."
+
+#: celeste/src/login/login_util.rs:28
+msgid ""
+"Invalid server name. Server names must:\n"
+"- Only contain numbers, letters, '_', '-', '.', and spaces\n"
+"- Not start with '-' or a space\n"
+"- Not end with a space"
+msgstr ""
+"Neveljavno ime strežnika. V imenu so lahko:\n"
+"- le številke, črke ter znaki »_«, »-«, ».« in presledki,\n"
+"- imena se ne smejo začeti z »-« ali s presledkom in\n"
+"- presledek ne sme biti zadnji znak imena."
+
+#: celeste/src/login/login_util.rs:42
+msgid "Server URL"
+msgstr "Naslov URL strežnika"
+
+#: celeste/src/login/login_util.rs:48
+msgid "Invalid server URL ({})."
+msgstr "Neveljaven naslov URL strežnika ({})."
+
+#: celeste/src/login/login_util.rs:57
+msgid "Invalid server URL (no domain specified)."
+msgstr "Neveljaven naslov URL strežnika (ni navedene domene)."
+
+#: celeste/src/login/login_util.rs:61
+msgid "Invalid server URL (password was specified)."
+msgstr "Neveljaven naslov URL strežnika (navedeno je geslo)."
+
+#: celeste/src/login/login_util.rs:65
+msgid "Invalid server URL(unknown server scheme {})."
+msgstr "Neveljaven naslov URL strežnika (neznana shema strežnika {})."
+
+#: celeste/src/login/login_util.rs:77
+msgid "Don't specify '{}' as part of the URL."
+msgstr "Zapis »{}« ni del naslova URL."
+
+#: celeste/src/login/login_util.rs:90
+msgid "Username"
+msgstr "Uporabniško ime"
+
+#: celeste/src/login/login_util.rs:96
+msgid "Password"
+msgstr "Geslo"
+
+#: celeste/src/login/login_util.rs:102
+msgid "Log in"
+msgstr "Prijava"
+
+#: celeste/src/login/mod.rs:72
+msgid "Unable to connect to the server. Check your internet connection and try again."
+msgstr "Ni se mogoče povezati s strežnikom. Preverite internetno povezavo in poskusite znova."
+
+#: celeste/src/login/mod.rs:76
+msgid "Unable to authenticate to the server. Check your login credentials and try again."
+msgstr "Ni se mogoče ustrezno povezati s strežnikom. Preverite poverila prijave in poskusite znova."
+
+#: celeste/src/login/mod.rs:80
+msgid "Unable to log in"
+msgstr "Prijave ni mogoče dokončati"
+
+#. The dropdown for selecting the server type.
+#: celeste/src/login/mod.rs:116
+msgid "Server Type"
+msgstr "Vrsta strežnika"
+
+#: celeste/src/main.rs:187
+msgid "Unknown Error"
+msgstr "Neznana napaka"
+
+#: celeste/src/main.rs:194
+msgid ""
+"An unknown error has occurred while running. This is an internal issue with Celeste and should be reported.\n"
+"\n"
+"The following backtrace may help with debugging the issue - note that it may contain information such as login tokens/keys, so avoid posting the information publicly:"
+msgstr ""
+"Med izvajanjem je prišlo do neznane napake. To je notranja napaka programa, za katero je treba pripraviti poročilo.\n"
+"\n"
+"Naveden zapis sledi delovanja lahko pomaga pri odpravljanju težav – lahko vsebuje informacije, kot so prijavni žetoni/ključi, zato teh informacij ni priporočljivo objavljati javno:"
+
+#: celeste-tray/src/main.rs:54
+msgid "Open"
+msgstr "Odpri"
+
+#: celeste-tray/src/main.rs:55
+msgid "Quit"
+msgstr "Končaj"
+
+#: celeste-tray/src/main.rs:116
+msgid "Quitting..."
+msgstr "Poteka prekinjanje usklajevanja ..."
